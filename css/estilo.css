@@ -1,1 +1,14 @@
-header{background: #5b7989;text-align: right;color: #fff;text-shadow: 2px 1px 1px #02010a;border-radius: 10px 10px 0 0}
+header{background: #5b7989;border-radius: 10px 10px 0 0}
+h1{text-align: right;color: #fff;text-shadow: 2px 1px 1px #02010a;}
+.actual{text-decoration:none;}
+section{text-align: center;}
+img{max-width: 100%}
+.flex{display:-webkit-flex;display:flex;-webkit-flex-direction: row;flex-direction: row;}
+.flex>div{flex: 1 1;-webkit-flex: 1 1;background: #d5c75f;border: solid 1px;}
+.principal>div{background: #82c3a6;}
+.paisajes a img:hover{transform: rotate(10deg);}
+.retratos a img:hover{transform: translate(20px,-5px);}
+.flex img{border:solid 2px;-webkit-filter: drop-shadow(5px 5px 5px #82c3a6);filter: drop-shadow(5px 5px 5px #82c3a6); }
+@media screen and (max-width:412px){
+	.flex{-webkit-flex-direction: column;flex-direction: column;}
+}
